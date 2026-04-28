@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class PersonajeBase {
 
-    // Atributos del personaje
 
     String nombre = "Gandalf";
 
@@ -34,13 +33,12 @@ public class PersonajeBase {
         System.out.println(p.nivel);
         System.out.println(p.vida);
         System.out.println(p.mana);
-        // Conversiones de tipo
 
         int ataque = 15;
 
-        double dano = (double) ataque * 1.5; // cast
+        double dano = (double) ataque * 1.5;
 
-        String msg = "Dano: " + dano; // auto
+        String msg = "Dano: " + dano; 
 
         Scanner sc = new Scanner(System.in);
 

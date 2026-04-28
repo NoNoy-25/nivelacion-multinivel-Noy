@@ -17,7 +17,7 @@ public class LogicaCombate {
         System.out.println("Vida: " + vidaJugador + " (" + pct + "%)");
         System.out.println("Estado: " + estado);
 
-        // COMBATE
+        //Enemigo
         int vidaEnemigo = 40;
         int ataqueBase = 35;
         int nivelJugador = 6;
