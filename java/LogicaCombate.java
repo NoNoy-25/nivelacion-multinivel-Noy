@@ -2,7 +2,7 @@
 public class LogicaCombate {
 
     public static void main(String[] args) {
-    
+        int aero=123;
         double vidaJugador = 25.0;
         double vidaMax = 100.0;
         double pct = (vidaJugador / vidaMax) * 100;
