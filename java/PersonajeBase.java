@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PersonajeBase {
+ public class PersonajeBase {
 
 
     String nombre = "Gandalf";
@@ -23,34 +23,33 @@ public class PersonajeBase {
 
     public static void main(String[] args)
 
-    {
+        {
+            PersonajeBase p = new
 
-        PersonajeBase p = new
+            PersonajeBase();
 
-        PersonajeBase();
+            System.out.println(p.nombre);
+            System.out.println(p.nivel);
+            System.out.println(p.vida);
+            System.out.println(p.mana);
 
-        System.out.println(p.nombre);
-        System.out.println(p.nivel);
-        System.out.println(p.vida);
-        System.out.println(p.mana);
+            int ataque = 15;
 
-        int ataque = 15;
+            double dano = (double) ataque * 1.5;
 
-        double dano = (double) ataque * 1.5;
+            String msg = "Dano: " + dano; 
 
-        String msg = "Dano: " + dano; 
+            Scanner sc = new Scanner(System.in);
 
-        Scanner sc = new Scanner(System.in);
+            System.out.print("Nombre: ");
 
-        System.out.print("Nombre: ");
+            String nom = sc.nextLine();
 
-        String nom = sc.nextLine();
+            System.out.print("Nivel: ");
 
-        System.out.print("Nivel: ");
+            int niv = sc.nextInt();
 
-        int niv = sc.nextInt();
+            System.out.println(nom + " Nv." + niv);
+        }
 
-        System.out.println(nom + " Nv." + niv);
     }
-
-}

@@ -1,7 +1,8 @@
+
 public class LogicaCombate {
 
     public static void main(String[] args) {
-        // JUGADOR
+    
         double vidaJugador = 25.0;
         double vidaMax = 100.0;
         double pct = (vidaJugador / vidaMax) * 100;
@@ -38,4 +39,6 @@ public class LogicaCombate {
             System.out.println("Enemigo resiste. Vida restante: " + vidaRestanteEnemigo);
         }
     }
+
 }
+
